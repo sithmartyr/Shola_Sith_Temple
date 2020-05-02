@@ -1,0 +1,88 @@
+Prisoner125
+{
+	playerModel		prisoner
+	weapon			WP_SABER
+	saber			Kyle
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			125
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}
+
+Prisoner200
+{
+	playerModel		prisoner
+	weapon			WP_SABER
+	saber			Kyle
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			200
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}
+
+Prisoner300
+{
+	playerModel		prisoner
+	weapon			WP_SABER
+	saber			Kyle
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			300
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}
+Prisoner400
+{
+	playerModel		prisoner
+	weapon			WP_SABER
+	saber			Kyle
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			400
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}
+
+Prisoner500
+{
+	playerModel		prisoner
+	weapon			WP_SABER
+	saber			Kyle
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			500
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}
