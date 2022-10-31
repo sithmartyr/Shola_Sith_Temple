@@ -36,23 +36,23 @@ textures/de_holos/cerb
     }
 }
 
-textures/de_holos/martyr
+textures/de_holos/martyr2
 {
-	qer_editorimage	textures/de_holos/martyr
+	qer_editorimage	textures/de_holos/martyr2
 	surfaceparm	nomarks
 	surfaceparm	nonsolid
 	surfaceparm	trans
 	nopicmip
 	nomipmaps
-	q3map_nolightmap
+	surfaceparm nolightmap
 	cull	twosided
-	deformvertexes	autoSprite2	
-    {
-        map textures/de_holos/martyr_glow
-        blendFunc GL_ONE GL_ONE
-        glow
-        rgbGen identity
-    }
+	deformvertexes	autoSprite2
+  {
+      map textures/de_holos/martyr_glow2
+      blendFunc GL_ONE GL_ONE
+      glow
+      rgbGen identity
+  }
 }
 
 textures/de_holos/logo
