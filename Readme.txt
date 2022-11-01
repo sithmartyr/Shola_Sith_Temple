@@ -17,6 +17,8 @@ Map started on February 16th.
 
 and thanks to all -[DE]- for testing my map as I was working with it and giving good recommendations!
 
+Took a break within two months of starting and got distracted in life, came back to finish in October 2022!
+
 --To Install--
 Place Shola Sith Temple.pk3 inside of your LucasArts/Star Wars Jedi Knight Jedi Academy/GameData/Base folder.
 
