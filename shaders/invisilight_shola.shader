@@ -17,7 +17,7 @@ textures/Shola_Temple/invisilight_white
    }
 }
 
-textures/system/invisilight_red
+textures/Shola_Temple/invisilight_red
 {
    qer_editorimage    textures/system/invisilight_image.jpg
    qer_trans    0.7
@@ -36,7 +36,7 @@ textures/system/invisilight_red
    }
 }
 
-textures/system/invisilight_180
+textures/Shola_Temple/invisilight_180
 {
    qer_editorimage	textures/system/invisilight_image.jpg
    qer_trans	0.7
