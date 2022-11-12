@@ -1,0 +1,13 @@
+ATAT
+{
+	weapon		WP_BOWCASTER
+	weapon		WP_ROCKET_LAUNCHER
+	weapon		WP_EMPLACED_GUN
+	playerModel	atat
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_VEHICLE
+	height		548	
+	width		548
+	health		10000
+}

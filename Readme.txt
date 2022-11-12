@@ -12,6 +12,7 @@ Special Thanks to Loda for helping me with advanced mapping info.
 Special thanks to Circa and Radiuks for creating and helping me with some textures.
 
 Added in October 2022, - A-Mountain by Acrobat
+ATAT Vehicle walker by jhc
 
 --Extra--
 

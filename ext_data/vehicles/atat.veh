@@ -1,0 +1,70 @@
+ATAT
+{
+name			ATAT
+type			VH_WALKER
+numHands		2
+hideRider		1
+killRiderOnDeath 1
+lookYaw			50
+lookPitch		45
+length			570
+width			320
+height			547
+centerOfGravity		"-0.222 0 0"
+speedMax		100
+speedMin		-50
+acceleration		9
+decelIdle		20
+strafePerc		0.0
+bankingSpeed		0.0
+rollLimit		2
+pitchLimit		0
+braking			10
+mouseYaw		0.003
+mousePitch		0.01
+turningSpeed		1
+turnWhenStopped		0
+traction		100
+friction		100
+maxSlope		0.7
+mass			400
+armor 			8000
+toughness 		80.0
+model			atat
+//This just doesn't work on levels with fog, so... leave it off
+//skin			alpha
+radarIcon		"gfx/menus/radar/atst"
+explosionRadius 500
+explosionDamage 2000
+explodeFX		"ships/ship_explosion2"
+explosionDelay	2650
+soundOn 		"sound/chars/atst/atst_hatch_close.mp3"
+soundOff 		"sound/chars/atst/atst_hatch_open.mp3"
+
+weap1			atat_laser
+weap1Delay		180
+weap1AmmoMax		1000
+weap1AmmoRechargeMS	500
+
+weapMuzzle1		atat_laser
+weapMuzzle2		atat_laser
+
+
+weap2			atat_gun
+weap2Delay		800
+weap2Aim		1
+weap2AmmoMax		500
+weap1AmmoRechargeMS	500
+
+weapMuzzle3		atat_gun
+weapMuzzle4		atat_gun
+
+cameraOverride		1
+cameraRange			1000
+cameraVertOffset		280
+//cameraPitchOffset		0
+cameraFOV			400
+//This just doesn't work on levels with fog, so... leave it off
+//cameraAlpha			0.25
+cameraPitchDependantVertOffset	0
+}
