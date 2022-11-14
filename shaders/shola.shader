@@ -1,19 +1,19 @@
 models/map_objects/shola_temple/statue_silv
 {   
- 
-        {
-                map models/map_objects/shola_temple/reflect_silv.tga       
-                tcGen environment
-                rgbGen identity
+    cull disable
+    {
+        map models/map_objects/shola_temple/reflect_silv.tga       
+        tcGen environment
+        rgbGen identity
 	}   
         {
 		map models/map_objects/shola_temple/statue_silv.tga
-                blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	} 
         {
 		map $lightmap
-                blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
+        blendFunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 		rgbGen identity
 	}
 }
@@ -311,6 +311,10 @@ textures/Shola_Temple/sholablack
 	qer_editorimage	textures/colors/black
 	q3map_nolightmap
     {
+        map textures/Shola_Temple/sholablack
+        rgbGen vertex
+    }
+    {
         map textures/Shola_Temple/blackwallgloss
         blendFunc GL_SRC_ALPHA GL_ONE
         rgbGen identity
@@ -340,4 +344,50 @@ textures/Shola_temple/trisoup_rock
       map $lightmap
       blendFunc GL_DST_COLOR GL_ZERO
    }
+}
+
+models/map_objects/shola_temple/medpac_mp
+{
+	q3map_nolightmap
+	q3map_onlyvertexlighting
+    {
+        map models/map_objects/shola_temple/medpac_mp.jpg
+        blendFunc GL_ONE GL_ZERO
+        //rgbGen lightingDiffuse
+    }
+    {
+        map models/map_objects/mp/health
+        blendFunc GL_ONE_MINUS_DST_COLOR GL_ONE
+        rgbGen wave sin 0 1 0 0.75
+        tcMod scroll 0 3
+    }
+    {
+        map models/map_objects/mp/health_field2
+        blendFunc GL_DST_COLOR GL_ONE
+        tcGen environment
+        tcMod scroll 0.5 0.5
+    }
+}
+
+models/map_objects/shola_temple/shield_sm_mp
+{
+	q3map_nolightmap
+	q3map_onlyvertexlighting
+    {
+        map models/map_objects/shola_temple/shield_sm_mp
+        blendFunc GL_ONE GL_ZERO
+        //rgbGen lightingDiffuse
+    }
+    {
+        map models/map_objects/mp/shield_field
+        blendFunc GL_DST_COLOR GL_ONE
+        rgbGen wave triangle 0.6 1 0 1
+        tcMod scroll 0 3
+    }
+    {
+        map models/map_objects/mp/shield_field2
+        blendFunc GL_DST_COLOR GL_ONE
+        tcGen environment
+        tcMod scroll 0.5 0.5
+    }
 }
