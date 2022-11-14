@@ -91,6 +91,18 @@ textures/skies/watercourse
         skyParms textures/skies/man 512 -
 }
 
+textures/bespin/water2
+{
+	qer_editorimage textures/bespin/water2
+	q3map_nolightmap
+	q3map_notjunc
+	surfaceparm nonsolid
+	surfaceparm nomarks
+   {
+	map textures/bespin/water2
+   }
+}
+
 textures/Shola_Temple/SithArchive
 {
    q3map_surfacelight	500
@@ -290,7 +302,23 @@ textures/bespin/u_shaft_glow02
     }
 }
 
-textures/colors/black
+textures/bespin/mp_r_light04
+{
+
+    {
+        map $lightmap
+    }
+    {
+        map textures/bespin/mp_r_light04
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map textures/bespin/mp_r_light04_glow
+        blendFunc GL_ONE GL_ONE
+    }
+}
+
+textures/Shola_Temple/sholablack
 {
 	qer_editorimage	textures/bespin/u_shaft_glow02
 	q3map_nolightmap
