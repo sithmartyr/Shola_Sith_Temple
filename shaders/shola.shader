@@ -391,3 +391,129 @@ models/map_objects/shola_temple/shield_sm_mp
         tcMod scroll 0.5 0.5
     }
 }
+
+models/map_objects/shola_temple/dfktor
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/dfktor.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/extras
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/extras.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/face
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/face.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/head
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/head.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/jacket
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/jacket.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/legs
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/legs.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
+
+models/map_objects/shola_temple/mouth_eyes
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/mouth_eyes.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        rgbGen lightingDiffuse
+        alphaGen wave sin 0.7 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+}
