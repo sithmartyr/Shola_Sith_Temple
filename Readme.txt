@@ -5,14 +5,16 @@ official page: http://de.jkhub.org/members/darthapocalypse
 
 ---Credits---
 Special thanks to Darth Martyr for teaching me how to map and help me with the obsticles I 
-came across in the making of this map. Without him I would never have started mapping. 
+came across in the making of this map. Without him I would never have started mapping.
+He also fixed every bug I came across!
 
-Special Thanks to Loda for helping me with advanced mapping info.
-
-Special thanks to Circa and Radiuks for creating and helping me with some textures.
+*Thanks to Loda for helping me with advanced mapping info and sharing some scripts. 
+*Thanks to Circa and Radiuks for creating some textures. Other textures by Martyr and Satele!
+*Thanks to Vondurr for helping me with several sound bytes and effects.
+*Thanks to Acrobat for his shader contributions and map tips.
 
 Added in October 2022, - A-Mountain by Acrobat
-Z-Mountain by Acrobat
+Z-Mountain by Acrobat (Nov. 2022)
 
 ATAT Vehicle walker by jhc
 
