@@ -17,6 +17,7 @@ Added in October 2022, - A-Mountain by Acrobat
 Z-Mountain by Acrobat (Nov. 2022)
 
 ATAT Vehicle walker by jhc
+Ebon Hawk Prefab by DarthStevenus
 
 --Extra--
 
