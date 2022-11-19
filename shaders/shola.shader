@@ -517,3 +517,24 @@ models/map_objects/shola_temple/mouth_eyes
         rgbGen wave sin 0.9 0.1 0.1 0.1
     }
 }
+
+
+textures/sholawater/acidpit
+{
+	qer_editorimage	textures/sholawater/acidpit
+	surfaceparm	nomarks
+	surfaceparm	nonsolid
+	surfaceparm	lava
+	q3map_nolightmap
+	q3map_onlyvertexlighting
+	q3map_novertexshadows
+    
+    {
+        map textures/sholawater/acidpit
+	glow
+        rgbGen wave sin 0.8 0.1 0 0.3
+        alphaGen const 0      
+	tcMod scroll 0 -0.25
+    }
+}
+
