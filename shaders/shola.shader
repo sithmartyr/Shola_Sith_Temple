@@ -538,3 +538,166 @@ textures/sholawater/acidpit
     }
 }
 
+models/map_objects/shola_temple/holo/martyr/dfktor
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/dfktor
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/extras
+{
+    surfaceparm	metalsteps
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/extras
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/face
+{
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/face
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        depthWrite
+        alphaGen const 0.8
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/head
+{
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/head
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/jacket
+{
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/jacket
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/legs
+{
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/legs
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
+
+models/map_objects/shola_temple/holo/martyr/mouth_eyes
+{
+    q3map_nolightmap
+    {
+        map models/map_objects/shola_temple/holo/martyr/mouth_eyes
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+        alphaGen const 0.9
+    }
+    {
+        map models/map_objects/shola_temple/holo/blue_glow
+        blendFunc GL_ONE GL_ONE
+        rgbGen wave sin 0.9 0.1 0.1 0.1
+    }
+    {
+        map models/map_objects/shola_temple/holo/grain
+        blendFunc GL_ONE GL_ONE
+        glow
+        tcMod turb 0 1 0 1
+        tcMod scroll 0 5
+        alphaGen const 0.5
+    }
+}
