@@ -9,5 +9,5 @@ ATAT
 	class		CLASS_VEHICLE
 	height		548	
 	width		548
-	health		10000
+	health		15000
 }
