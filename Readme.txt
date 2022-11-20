@@ -15,7 +15,7 @@ He also fixed every bug I came across!
 
 Added in October 2022, - A-Mountain by Acrobat
 Z-Mountain by Acrobat (Nov. 2022)
-
+Sprint is a retextured version of Dash1 from RaceArena by Loda
 ATAT Vehicle walker by jhc
 Ebon Hawk Prefab by DarthStevenus
 
