@@ -702,17 +702,17 @@ models/map_objects/shola_temple/holo/martyr/mouth_eyes
     }
 }
 
-
 textures/Shola_Temple/cantina
 {
 	cull	twosided
     {
-        map models/players/T_Anakin/hair_alpha
+        map textures/Shola_Temple/cantina
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbGen lightingDiffuse
         //alphaFunc GE128
     }
 }
+
 
 textures/Shola_Temple/sith
 {
