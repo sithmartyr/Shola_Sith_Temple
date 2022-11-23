@@ -9,7 +9,8 @@ came across in the making of this map. Without him I would never have started ma
 He also fixed every bug I came across!
 
 *Thanks to Loda for helping me with advanced mapping info and sharing some scripts. 
-*Thanks to Circa and Radiuks for creating some textures. Other textures by Martyr and Satele!
+*Thanks to Circa for creating many great textures for better visual improvement.
+*Thanks Radiuks for creating some textures. Other textures by Martyr and Satele!
 *Thanks to Vondurr for helping me with several sound bytes and effects.
 *Thanks to Acrobat for his shader contributions and map tips.
 
@@ -18,6 +19,7 @@ Z-Mountain by Acrobat (Nov. 2022)
 Sprint is a retextured version of Dash1 from RaceArena by Loda
 DE walkers by Circa! Taken from the ATAT Vehicle walker by jhc
 Ebon Hawk Prefab by DarthStevenus
+shola lava skybox and wasteland skybox taken from Sith J Cull maps.
 
 --Extra--
 

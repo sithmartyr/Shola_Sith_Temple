@@ -20,7 +20,7 @@ models/map_objects/shola_temple/statue_silv
 
 textures/skies/sholasky
 {
-	qer_editorimage	textures/skies/sholasky
+	qer_editorimage	textures/skies/sky
 	surfaceparm	sky
 	surfaceparm	noimpact
 	surfaceparm	nomarks
@@ -29,6 +29,50 @@ textures/skies/sholasky
 	q3map_skylight 1750 5
 	q3map_sunExt 1.000000 0.997119 0.857641 500 315 25 1 2
 	skyParms	textures/skies/moost 512 -
+}
+
+textures/skies/sholaspace
+{
+	qer_editorimage	textures/skies/sky
+	surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+	skyParms	textures/skies/shola 512 -
+}
+
+textures/skies/lightbluespace
+{
+	qer_editorimage	textures/skies/sky
+	surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+	skyParms	textures/skies/lightspace 512 -
+}
+
+textures/skies/NewSholaSpace
+{
+	qer_editorimage	textures/skies/sky
+	surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+	skyParms	textures/skies/redneb 512 -
+}
+
+textures/skies/wastelands
+{
+	qer_editorimage	textures/skies/sky
+	surfaceparm	sky
+	surfaceparm	noimpact
+	surfaceparm	nomarks
+	notc
+	q3map_nolightmap
+	skyParms	textures/Asjc_movie_tatooine/sjctat 1024 -
 }
 
 textures/sholawater/movingwater
@@ -273,38 +317,6 @@ textures/shola_temple/red_light
     }
 }
 
-textures/bespin/u_shaft_glow02
-{
-	qer_editorimage	textures/bespin/u_shaft_glow02
-	q3map_nolightmap
-    {
-        map textures/bespin/u_shaft_glow02
-        rgbGen vertex
-    }
-    {
-        map textures/Shola_Temple/blackwallgloss
-        blendFunc GL_SRC_ALPHA GL_ONE
-        rgbGen identity
-        alphaGen const 0.25
-        tcGen environment
-    }
-}
-
-textures/bespin/mp_r_light04
-{
-
-    {
-        map $lightmap
-    }
-    {
-        map textures/bespin/mp_r_light04
-        blendFunc GL_DST_COLOR GL_ZERO
-    }
-    {
-        map textures/bespin/mp_r_light04_glow
-        blendFunc GL_ONE GL_ONE
-    }
-}
 
 textures/Shola_Temple/sholablack
 {
@@ -704,15 +716,21 @@ models/map_objects/shola_temple/holo/martyr/mouth_eyes
 
 textures/Shola_Temple/cantina
 {
-	cull	twosided
+	surfaceparm	nonsolid
+	polygonOffset
     {
         map textures/Shola_Temple/cantina
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-        rgbGen lightingDiffuse
-        //alphaFunc GE128
+        alphaFunc GE128
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+        rgbGen identity
     }
 }
-
 
 textures/Shola_Temple/sith
 {
@@ -734,6 +752,26 @@ textures/Shola_Temple/sith_distressed
     }
     {
         map textures/Shola_Temple/sith_distressed_glow
+        blendFunc GL_ONE GL_ONE
+        glow
+    }
+}
+
+textures/Shola_Temple/floor_glow
+{
+    {
+        map textures/Shola_Temple/floor_glow
+        rgbGen lightingDiffuse
+    }
+    {
+        map textures/Shola_Temple/blackwallgloss
+        blendFunc GL_SRC_ALPHA GL_ONE
+        rgbGen identity
+        alphaGen const 0.25
+        tcGen environment
+    }
+    {
+        map textures/Shola_Temple/floor_glow_glow
         blendFunc GL_ONE GL_ONE
         glow
     }
