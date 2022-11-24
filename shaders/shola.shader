@@ -72,7 +72,7 @@ textures/skies/wastelands
 	surfaceparm	nomarks
 	notc
 	q3map_nolightmap
-	skyParms	textures/Asjc_movie_tatooine/sjctat 1024 -
+	skyParms	textures/skies/sjctat 1024 -
 }
 
 textures/sholawater/movingwater
