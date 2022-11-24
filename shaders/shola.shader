@@ -776,3 +776,139 @@ textures/Shola_Temple/floor_glow
         glow
     }
 }
+
+
+
+
+
+models/map_objects/korenc/kolto
+{
+	qer_editorimage	models/map_objects/korenc/kolto.tga
+	qer_trans	0.5
+	surfaceparm	nonopaque
+	surfaceparm	trans
+	q3map_material	Glass
+	q3map_nolightmap
+    {
+        map models/map_objects/korenc/kolto
+        blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+    }
+    {
+        map models/map_objects/korenc/kolto
+        blendFunc GL_ONE GL_ONE
+        tcGen environment
+    }
+    {
+        map models/map_objects/korenc/bubbles
+        blendFunc blend
+        tcMod scroll 0 0.2
+    }
+}
+
+models/map_objects/korenc/koltotank
+{
+	qer_editorimage models/map_objects/korenc/koltotank.jpg
+	q3map_lightimage models/map_objects/korenc/koltotank_glow.jpg
+	q3map_shadeangle	90
+	q3map_surfacelight 500
+	q3map_backSplash 0.5 8
+	q3map_nonplanar
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/koltotank
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/koltotank_glow
+        blendFunc GL_ONE GL_ONE
+        glow
+    }
+    {
+        map models/map_objects/korenc/koltotank_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        detail
+        alphaGen lightingSpecular
+    }
+}
+
+models/map_objects/korenc/sithholocron
+{
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/sithholocron
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/sithholocron_glow
+        blendFunc GL_ONE GL_ONE
+	glow
+    }
+}
+
+models/map_objects/korenc/datapad
+{
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/datapad
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/datapad_glow
+        blendFunc GL_ONE GL_ONE
+	glow
+    }
+}
+
+models/map_objects/korenc/cage
+{
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/cage
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/cage_glow
+        blendFunc GL_ONE GL_ONE
+	glow
+    }
+}
+
+models/map_objects/korenc/orangewrktable
+{
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/orangewrktable
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/orangewrktable_glow
+        blendFunc GL_ONE GL_ONE
+	glow
+    }
+}
+
+models/map_objects/korenc/bluewrktable
+{
+    {
+        map $lightmap
+    }
+    {
+        map models/map_objects/korenc/bluewrktable
+        blendFunc GL_DST_COLOR GL_ZERO
+    }
+    {
+        map models/map_objects/korenc/bluewrktable_glow
+        blendFunc GL_ONE GL_ONE
+	glow
+    }
+}
