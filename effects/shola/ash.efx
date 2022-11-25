@@ -1,0 +1,89 @@
+repeatDelay				40000
+
+Particle
+{
+	name				chunks
+
+	flags				usePhysics impactKills useAlpha
+
+	spawnFlags			evenDistribution affectedByWind
+
+	count				3 8
+
+	life				5e+004
+
+	delay				0 3e+004
+
+	origin				0 1.4e+004 1.4e+004 0 -1.4e+004 -1.4e+004
+
+	radius				50
+
+	wind				1 30
+
+	rotationDelta		-70 70
+
+	velocity			-200 0 0 -250 0 0
+
+	rgb
+	{
+		start			0.03922 0.03922 0.03922 0.1176 0.1176 0.1176
+	}
+
+	size
+	{
+		start			3 6
+		end				30 42
+		parm			1.5 2.5
+	}
+
+	shaders
+	[
+		textures/taspirpowercomplex/ash1
+		textures/taspirpowercomplex/ash2
+	]
+}
+
+Particle
+{
+	name				centerchunks
+
+	flags				expensivePhysics usePhysics impactKills useAlpha
+
+	spawnFlags			evenDistribution affectedByWind
+
+	count				1 2
+
+	life				5.85e+004
+
+	delay				0 3e+004
+
+	origin				0 2500 2500 0 -2500 -2500
+
+	radius				50
+
+	wind				1 30
+
+	rotation			0 360
+
+	rotationDelta		28 -28
+
+	velocity			-200 0 0 -250 0 0
+
+	rgb
+	{
+		start			0.03922 0.03922 0.03922 0.1176 0.1176 0.1176
+	}
+
+	size
+	{
+		start			3 6
+		end				30 42
+		parm			1.5 2.5
+	}
+
+	shaders
+	[
+		textures/taspirpowercomplex/ash1
+		textures/taspirpowercomplex/ash2
+	]
+}

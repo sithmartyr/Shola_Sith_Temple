@@ -1,0 +1,248 @@
+repeatDelay				10000
+
+Particle
+{
+	name				chunks
+
+	flags				impactKills useAlpha
+
+	spawnFlags			orgOnCylinder evenDistribution
+
+	count				15 20
+
+	life				2100
+
+	delay				0 1500
+
+	origin				0 10 10 0 -10 -10
+
+	radius				50
+
+	rotation			0 360
+
+	rotationDelta		-18 18
+
+	velocity			-360 1110 40 -570 1300 -40
+
+	gravity				-1200
+
+	rgb
+	{
+		start			1 0 0 1 1 0
+		flags			random
+	}
+
+	size
+	{
+		start			40 52
+		end				30 42
+		parm			1.5 2.5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/lava
+		gfx/effects/lava2
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	flags				impactKills
+
+	spawnFlags			orgOnCylinder evenDistribution
+
+	count				20 35
+
+	life				2100
+
+	delay				0 1500
+
+	origin				0 10 10 0 -10 -10
+
+	radius				60 50
+
+	rotation			0 360
+
+	rotationDelta		-18 18
+
+	velocity			-360 1250 0 -435 1250 0
+
+	gravity				-1200
+
+	rgb
+	{
+		start			1 0.1961 0 0.5882 0.5098 0.1961
+		end				0.7059 0.2745 0 0.5882 0.3137 0.07843
+		flags			random linear
+	}
+
+	alpha
+	{
+		start			1 0.8
+		end				0.2 0.5
+		flags			linear
+	}
+
+	size
+	{
+		start			30 35
+		end				25 15
+		parm			1.5 2.5
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/misc/fxflare
+	]
+}
+
+Particle
+{
+	name				YellowGlow
+
+	flags				impactKills
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				15 22
+
+	life				2200
+
+	delay				0 1500
+
+	origin				0 10 10 0 -10 -10
+
+	radius				30
+
+	rotation			0 360
+
+	rotationDelta		-30 30
+
+	velocity			-360 1250 0 -450 1250 0
+
+	gravity				-1200
+
+	rgb
+	{
+		start			0.5098 0.5098 0.5098
+		end				0.4902 0 0 1 0 0
+	}
+
+	alpha
+	{
+		end				0.1
+		flags			linear
+	}
+
+	size
+	{
+		start			70
+		end				120 140
+		parm			1.5 2.5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/exp01_1
+		gfx/misc/exp01_2
+		gfx/misc/exp02_2
+		gfx/misc/exp02_3
+	]
+}
+
+Particle
+{
+	name				Upward_drip
+
+	flags				impactKills impactFx
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				3 7
+
+	life				2200
+
+	delay				0 500
+
+	origin				10 10 0 -10 -10 0
+
+	velocity			-450 910 70 -550 1075 -70
+
+	gravity				-1200
+
+	rgb
+	{
+		start			1 0.1961 0 1 0.5882 0
+	}
+
+	size
+	{
+		start			8 15
+	}
+
+	shaders
+	[
+		gfx/effects/sabers/yellow_glow.tga
+	]
+}
+
+CameraShake
+{
+	life				2000 3000
+
+	intensity			15 15
+
+	radius				2900
+}
+
+Sound
+{
+	count				2
+
+	sounds
+	[
+		sound/Taspir_remap_sounds/lava_spurt.wav
+	]
+}
+
+Particle
+{
+	name				Copy of Upward_drip
+
+	flags				impactKills impactFx
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				5 10
+
+	life				2350
+
+	delay				0 500
+
+	origin				10 200 0 -10 200 0
+
+	velocity			-180 1350 70 -720 1150 -70
+
+	gravity				-1200
+
+	rgb
+	{
+		start			1 0.1961 0 1 0.5882 0
+	}
+
+	size
+	{
+		start			8 15
+	}
+
+	shaders
+	[
+		gfx/effects/sabers/yellow_glow.tga
+	]
+}

@@ -18,6 +18,10 @@ models/map_objects/shola_temple/statue_silv
 	}
 }
 
+
+//SKIES
+
+
 textures/skies/sholasky
 {
 	qer_editorimage	textures/skies/sky
@@ -75,6 +79,22 @@ textures/skies/wastelands
 	skyParms	textures/skies/sjctat 1024 -
 }
 
+textures/skies/watercourse
+{
+        qer_editorimage textures/skies/watercourse
+        surfaceparm sky
+        surfaceparm noimpact
+        surfaceparm nomarks
+        notc
+        q3map_nolightmap
+        skyParms textures/skies/man 512 -
+}
+
+
+
+//CORE 
+
+
 textures/sholawater/movingwater
 {
 	qer_editorimage	textures/common/direction
@@ -124,16 +144,6 @@ textures/Shola_Temple/video2
         }
 }
 
-textures/skies/watercourse
-{
-        qer_editorimage textures/skies/watercourse
-        surfaceparm sky
-        surfaceparm noimpact
-        surfaceparm nomarks
-        notc
-        q3map_nolightmap
-        skyParms textures/skies/man 512 -
-}
 
 
 textures/Shola_Temple/flag
@@ -376,6 +386,12 @@ models/map_objects/shola_temple/shield_sm_mp
     }
 }
 
+
+
+//HOLOGRAMMODELS
+
+
+
 models/map_objects/shola_temple/dfktor
 {
     surfaceparm	metalsteps
@@ -499,26 +515,6 @@ models/map_objects/shola_temple/mouth_eyes
         map models/map_objects/shola_temple/blue_glow
         blendFunc GL_ONE GL_ONE
         rgbGen wave sin 0.9 0.1 0.1 0.1
-    }
-}
-
-
-textures/sholawater/acidpit
-{
-	qer_editorimage	textures/sholawater/acidpit
-	surfaceparm	nomarks
-	surfaceparm	nonsolid
-	surfaceparm	lava
-	q3map_nolightmap
-	q3map_onlyvertexlighting
-	q3map_novertexshadows
-    
-    {
-        map textures/sholawater/acidpit
-	glow
-        rgbGen wave sin 0.8 0.1 0 0.3
-        alphaGen const 0      
-	tcMod scroll 0 -0.25
     }
 }
 
@@ -686,6 +682,32 @@ models/map_objects/shola_temple/holo/martyr/mouth_eyes
     }
 }
 
+
+
+
+//NEWEXTRAS
+
+
+
+textures/sholawater/acidpit
+{
+	qer_editorimage	textures/sholawater/acidpit
+	surfaceparm	nomarks
+	surfaceparm	nonsolid
+	surfaceparm	lava
+	q3map_nolightmap
+	q3map_onlyvertexlighting
+	q3map_novertexshadows
+    
+    {
+        map textures/sholawater/acidpit
+	glow
+        rgbGen wave sin 0.8 0.1 0 0.3
+        alphaGen const 0      
+	tcMod scroll 0 -0.25
+    }
+}
+
 textures/Shola_Temple/cantina
 {
 	surfaceparm	nonsolid
@@ -752,35 +774,39 @@ textures/Shola_Temple/floor_glow
 
 
 
+//KOTORMODELS
 
-models/map_objects/korenc/kolto
+
+
+
+models/map_objects/kotor/kolto
 {
-	qer_editorimage	models/map_objects/korenc/kolto.tga
+	qer_editorimage	models/map_objects/kotor/kolto.tga
 	qer_trans	0.5
 	surfaceparm	nonopaque
 	surfaceparm	trans
 	q3map_material	Glass
 	q3map_nolightmap
     {
-        map models/map_objects/korenc/kolto
+        map models/map_objects/kotor/kolto
         blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
     }
     {
-        map models/map_objects/korenc/kolto
+        map models/map_objects/kotor/kolto
         blendFunc GL_ONE GL_ONE
         tcGen environment
     }
     {
-        map models/map_objects/korenc/bubbles
+        map models/map_objects/kotor/bubbles
         blendFunc blend
         tcMod scroll 0 0.2
     }
 }
 
-models/map_objects/korenc/koltotank
+models/map_objects/kotor/koltotank
 {
-	qer_editorimage models/map_objects/korenc/koltotank.jpg
-	q3map_lightimage models/map_objects/korenc/koltotank_glow.jpg
+	qer_editorimage models/map_objects/kotor/koltotank.jpg
+	q3map_lightimage models/map_objects/kotor/koltotank_glow.jpg
 	q3map_shadeangle	90
 	q3map_surfacelight 500
 	q3map_backSplash 0.5 8
@@ -789,97 +815,97 @@ models/map_objects/korenc/koltotank
         map $lightmap
     }
     {
-        map models/map_objects/korenc/koltotank
+        map models/map_objects/kotor/koltotank
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/koltotank_glow
+        map models/map_objects/kotor/koltotank_glow
         blendFunc GL_ONE GL_ONE
         glow
     }
     {
-        map models/map_objects/korenc/koltotank_spec
+        map models/map_objects/kotor/koltotank_spec
         blendFunc GL_SRC_ALPHA GL_ONE
         detail
         alphaGen lightingSpecular
     }
 }
 
-models/map_objects/korenc/sithholocron
+models/map_objects/kotor/sithholocron
 {
     {
         map $lightmap
     }
     {
-        map models/map_objects/korenc/sithholocron
+        map models/map_objects/kotor/sithholocron
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/sithholocron_glow
+        map models/map_objects/kotor/sithholocron_glow
         blendFunc GL_ONE GL_ONE
 	glow
     }
 }
 
-models/map_objects/korenc/datapad
+models/map_objects/kotor/datapad
 {
     {
         map $lightmap
     }
     {
-        map models/map_objects/korenc/datapad
+        map models/map_objects/kotor/datapad
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/datapad_glow
+        map models/map_objects/kotor/datapad_glow
         blendFunc GL_ONE GL_ONE
 	glow
     }
 }
 
-models/map_objects/korenc/cage
+models/map_objects/kotor/cage
 {
     {
         map $lightmap
     }
     {
-        map models/map_objects/korenc/cage
+        map models/map_objects/kotor/cage
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/cage_glow
+        map models/map_objects/kotor/cage_glow
         blendFunc GL_ONE GL_ONE
 	glow
     }
 }
 
-models/map_objects/korenc/orangewrktable
+models/map_objects/kotor/orangewrktable
 {
     {
         map $lightmap
     }
     {
-        map models/map_objects/korenc/orangewrktable
+        map models/map_objects/kotor/orangewrktable
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/orangewrktable_glow
+        map models/map_objects/kotor/orangewrktable_glow
         blendFunc GL_ONE GL_ONE
 	glow
     }
 }
 
-models/map_objects/korenc/bluewrktable
+models/map_objects/kotor/bluewrktable
 {
     {
         map $lightmap
     }
     {
-        map models/map_objects/korenc/bluewrktable
+        map models/map_objects/kotor/bluewrktable
         blendFunc GL_DST_COLOR GL_ZERO
     }
     {
-        map models/map_objects/korenc/bluewrktable_glow
+        map models/map_objects/kotor/bluewrktable_glow
         blendFunc GL_ONE GL_ONE
 	glow
     }
