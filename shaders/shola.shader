@@ -26,8 +26,8 @@ textures/skies/sholasky
 	surfaceparm	nomarks
 	notc
 	q3map_nolightmap
-	q3map_skylight 1750 5
-	q3map_sunExt 1.000000 0.997119 0.857641 500 315 25 1 2
+	q3map_skylight 150 3
+	q3map_sunExt 1.0 1.0 1.0 100 50 35 1 2
 	skyParms	textures/skies/moost 512 -
 }
 
