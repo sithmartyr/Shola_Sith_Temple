@@ -1,9 +1,8 @@
 twi_bartender
 {
-	playerModel		jedi_tf/head_b4|torso_f1|lower_a1
-	weapon			WP_SABER
-	saber			desann
-	saberStyle		3
+	playerModel		twi_bartender
+	customRGBA	    62 155 255
+	weapon			WP_NONE
 	aggression		1
 	aim			1
 	evasion			1
