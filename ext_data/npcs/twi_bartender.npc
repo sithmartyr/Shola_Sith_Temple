@@ -1,0 +1,17 @@
+twi_bartender
+{
+	playerModel		jedi_tf/head_b4|torso_f1|lower_a1
+	weapon			WP_SABER
+	saber			desann
+	saberStyle		3
+	aggression		1
+	aim			1
+	evasion			1
+	intelligence		1
+	move			1
+	reactions		1
+	health			9999999999999
+	playerTeam		TEAM_PLAYER
+	enemyTeam		TEAM_ENEMY
+	movetype		static
+}

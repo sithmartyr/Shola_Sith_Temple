@@ -16,8 +16,6 @@ Particle
 
 	origin				0 10 10 0 -10 -10
 
-	radius				50
-
 	rotation			0 360
 
 	rotationDelta		-18 18
@@ -35,7 +33,7 @@ Particle
 	size
 	{
 		start			40 52
-		end				30 42
+		end			30 42
 		parm			1.5 2.5
 		flags			linear
 	}
@@ -65,8 +63,6 @@ Particle
 
 	radius				60 50
 
-	rotation			0 360
-
 	rotationDelta		-18 18
 
 	velocity			360 1250 0 435 1250 0
@@ -92,7 +88,7 @@ Particle
 		start			30 35
 		end				25 15
 		parm			1.5 2.5
-		flags			random linear
+		flags			linear
 	}
 
 	shaders
@@ -116,8 +112,6 @@ Particle
 	delay				0 1500
 
 	origin				0 10 10 0 -10 -10
-
-	radius				30
 
 	rotation			0 360
 
@@ -192,22 +186,14 @@ Particle
 	]
 }
 
-CameraShake
-{
-	life				2000 3000
-
-	intensity			15 15
-
-	radius				2900
-}
 
 Sound
 {
-	count				2
+	count				4
 
 	sounds
 	[
-		sound/Taspir_remap_sounds/lava_spurt.wav
+		sound/shola_temple/lava_sludge.wav
 	]
 }
 
