@@ -910,3 +910,331 @@ models/map_objects/korenc/bluewrktable
 	glow
     }
 }
+
+
+
+
+
+
+
+
+//NOFALLDAMAGETEXTURES
+
+
+textures/Shola_Temple/amtn
+{
+qer_editorimage textures/Shola_Temple/amtn
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/amtn
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/banner
+{
+qer_editorimage textures/Shola_Temple/banner
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/banner
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/bcarpet
+{
+qer_editorimage textures/Shola_Temple/bcarpet
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/bcarpet
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/black_noise
+{
+qer_editorimage textures/Shola_Temple/black_noise
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/black_noise
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/blackmarble
+{
+qer_editorimage textures/Shola_Temple/blackmarble
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/blackmarble
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/e6c_floor
+{
+qer_editorimage textures/Shola_Temple/e6c_floor
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/e6c_floor
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/floor2_black
+{
+qer_editorimage textures/Shola_Temple/floor2_black
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/floor2_black
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/floor2_red2
+{
+qer_editorimage textures/Shola_Temple/floor2_red2
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/floor2_red2
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/floor3
+{
+qer_editorimage textures/Shola_Temple/floor3
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/floor3
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/k_basicfloor2_dark3
+{
+qer_editorimage textures/Shola_Temple/k_basicfloor2_dark3
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/k_basicfloor2_dark3
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+textures/Shola_Temple/lavarock5555
+{
+qer_editorimage textures/Shola_Temple/lavarock5555
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/lavarock5555
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/n_floor01
+{
+qer_editorimage textures/Shola_Temple/n_floor01
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/n_floor01
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/tagteamarena
+{
+qer_editorimage textures/Shola_Temple/tagteamarena
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/tagteamarena
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/tileblock2
+{
+qer_editorimage textures/Shola_Temple/tileblock2
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/tileblock2
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/wood
+{
+qer_editorimage textures/Shola_Temple/wood
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/wood
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/blackseat
+{
+qer_editorimage textures/Shola_Temple/blackseat
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/blackseat
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/ll_carpet
+{
+qer_editorimage textures/Shola_Temple/ll_carpet
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/ll_carpet
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/redcarpet
+{
+qer_editorimage textures/Shola_Temple/redcarpet
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/redcarpet
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/Shola_Temple/redwood
+{
+qer_editorimage textures/Shola_Temple/redwood
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/Shola_Temple/redwood
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}
+
+
+textures/common/lrock2
+{
+qer_editorimage textures/common/lrock2
+surfaceparm    nodamage
+{
+map $lightmap
+rgbGen identityLighting
+}
+{
+map textures/common/lrock2
+blendFunc GL_DST_COLOR GL_ZERO
+rgbGen identityLighting
+}
+}

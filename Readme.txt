@@ -21,10 +21,11 @@ DE walkers by Circa! Taken from the ATAT Vehicle walker by jhc
 Vehicle Bantha by jhc
 Ebon Hawk Prefab by DarthStevenus
 shola lava skybox and wasteland skybox taken from Sith J Cull maps.
+TIE patrol script taken from Malevolence map
 
 --Extra--
 
-Map started on February 16th. 
+Map started on February 16th, 2015. 
 
 and thanks to all -[DE]- for testing my map as I was working with it and giving good recommendations!
 
