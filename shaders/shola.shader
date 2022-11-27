@@ -771,6 +771,23 @@ textures/Shola_Temple/floor_glow
     }
 }
 
+textures/Shola_Temple/foodlist
+{
+	qer_editorimage textures/Shola_Temple/foodlist
+	q3map_nolightmap
+	cull	twosided
+	surfaceparm	nonopaque
+	surfaceparm	trans
+	q3map_surfacelight 3000
+	q3map_lightRGB 1.00 1.00 1.00
+	{
+	map textures/Shola_Temple/foodlist
+	blendFunc GL_ONE GL_ONE
+	tcMod scroll 0.00 0.03
+	glow
+	}
+}
+
 
 
 
