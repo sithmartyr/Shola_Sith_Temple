@@ -788,6 +788,24 @@ textures/Shola_Temple/foodlist
 	}
 }
 
+textures/sholawallart/ApocEmpireSymbol
+{
+	surfaceparm	nonsolid
+	polygonOffset
+    {
+        map textures/sholawallart/ApocEmpireSymbol
+        alphaFunc GE128
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+        rgbGen identity
+    }
+}
+
 
 
 
@@ -1254,4 +1272,884 @@ map textures/common/lrock2
 blendFunc GL_DST_COLOR GL_ZERO
 rgbGen identityLighting
 }
+}
+
+
+
+
+
+
+//SIGNSandPOSTERSLightMap
+
+textures/Room_Labels/Acidcage
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/Acidcage
+        
+    }
+}
+
+textures/Room_Labels/amountainsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/amountainsign
+        
+    }
+}
+
+textures/Room_Labels/ECtelesign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/ECtelesign
+        
+    }
+}
+
+textures/Room_Labels/Hangarbaysign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/Hangarbaysign
+        
+    }
+}
+
+textures/Room_Labels/kotorcages
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/kotorcages
+        
+    }
+}
+
+textures/Room_Labels/longjumpsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/longjumpsign
+        
+    }
+}
+
+textures/Room_Labels/movementv2sign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/movementv2sign
+        
+    }
+}
+
+textures/Room_Labels/personalquarterssign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/personalquarterssign
+        
+    }
+}
+
+textures/Room_Labels/rancorsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/rancorsign
+        
+    }
+}
+
+textures/Room_Labels/sprintsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/sprintsign
+        
+    }
+}
+
+textures/Room_Labels/strafepadstele
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/strafepadstele
+        
+    }
+}
+
+textures/Room_Labels/tagteamarenasign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/tagteamarenasign
+        
+    }
+}
+
+textures/Room_Labels/trainingroomsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/trainingroomsign
+        
+    }
+}
+
+textures/Room_Labels/wastelandssign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/wastelandssign
+        
+    }
+}
+
+textures/Room_Labels/zmountainsign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/zmountainsign
+        
+    }
+}
+
+textures/Shola_Temple/jc_jumpcourse
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_jumpcourse
+        
+    }
+}
+
+textures/Shola_Temple/jc_longjumps
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_longjumps
+        
+    }
+}
+
+textures/Shola_Temple/jc_manaanwatercourse
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_manaanwatercourse
+        
+    }
+}
+
+textures/Shola_Temple/jc_precisionjumpcourse
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_precisionjumpcourse
+        
+    }
+}
+
+textures/Shola_Temple/jc_slopecourse
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_slopecourse
+        
+    }
+}
+
+textures/Shola_Temple/jc_wallgrabcourse
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/jc_wallgrabcourse
+        
+    }
+}
+
+textures/Shola_Temple/n00bmer1
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber1
+        
+    }
+}
+
+textures/Shola_Temple/n00mber2
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber2
+        
+    }
+}
+
+textures/Shola_Temple/n00mber3
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber3
+        
+    }
+}
+
+textures/Shola_Temple/n00mber4
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber4
+        
+    }
+}
+
+textures/Shola_Temple/n00mber5
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber5
+        
+    }
+}
+
+textures/Shola_Temple/n00mber6
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/n00mber6
+        
+    }
+}
+
+textures/Shola_Temple/numbah-1
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-1
+        
+    }
+}
+
+textures/Shola_Temple/numbah-2
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-2
+        
+    }
+}
+
+textures/Shola_Temple/numbah-3
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-3
+        
+    }
+}
+
+textures/Shola_Temple/numbah-4
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-4
+        
+    }
+}
+
+textures/Shola_Temple/numbah-125
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-125
+        
+    }
+}
+
+textures/Shola_Temple/numbah-200
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-200
+        
+    }
+}
+
+textures/Shola_Temple/numbah-300
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-300
+        
+    }
+}
+
+textures/Shola_Temple/numbah-400
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-400
+        
+    }
+}
+
+textures/Shola_Temple/numbah-500
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Temple/numbah-500
+        
+    }
+}
+
+textures/Shola_Library/acolytes
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/acolytes
+        
+    }
+}
+
+textures/Shola_Library/arken
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/arken
+        
+    }
+}
+
+textures/Shola_Library/blackout
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/blackout
+        
+    }
+}
+
+textures/Shola_Library/Cerb
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Cerb
+        
+    }
+}
+
+textures/Shola_Library/darkempireexiles
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/darkempireexiles
+        
+    }
+}
+
+textures/Shola_Library/darkempirefriends
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/darkempirefriends
+        
+    }
+}
+
+textures/Shola_Library/darth_apoc_library
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/darth_apoc_library
+        
+    }
+}
+
+textures/Shola_Library/Darth_Martyr
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Darth_Martyr
+        
+    }
+}
+
+textures/Shola_Library/darthpanopticus
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/darthpanopticus
+        
+    }
+}
+
+textures/Shola_Library/Death
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Death
+        
+    }
+}
+
+textures/Shola_Library/desiterules
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/desiterules
+        
+    }
+}
+
+textures/Shola_Library/Dew
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Dew
+        
+    }
+}
+
+textures/Shola_Library/ECpicture
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/ECpicture
+        
+    }
+}
+
+textures/Shola_Library/Empari
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Empari
+        
+    }
+}
+
+textures/Shola_Library/Eradicus
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Eradicus
+        
+    }
+}
+
+textures/Shola_Library/Forgottendarkempire
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Forgottendarkempire
+        
+    }
+}
+
+textures/Shola_Library/infected
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/infected
+        
+    }
+}
+
+textures/Shola_Library/jkaconsolecmds
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/jkaconsolecmds
+        
+    }
+}
+
+textures/Shola_Library/Kenshiro
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Kenshiro
+        
+    }
+}
+
+textures/Shola_Library/Kraytcode
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Kraytcode
+        
+    }
+}
+
+textures/Shola_Library/kttarchive
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/kttarchive
+        
+    }
+}
+
+textures/Shola_Library/Nienna
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Nienna
+        
+    }
+}
+
+textures/Shola_Library/ogdemap
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/ogdemap
+        
+    }
+}
+
+textures/Shola_Library/Pandorum
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Pandorum
+        
+    }
+}
+
+textures/Shola_Library/Radiuks
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Radiuks
+        
+    }
+}
+
+textures/Shola_Library/Rancorportrat
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Rancorportrat
+        
+    }
+}
+
+textures/Shola_Library/Sac
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Sac
+        
+    }
+}
+
+textures/Shola_Library/Sensei
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Sensei
+        
+    }
+}
+
+textures/Shola_Library/shadow_fortress
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/shadow_fortress
+        
+    }
+}
+
+textures/Shola_Library/Sid
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Sid
+        
+    }
+}
+
+textures/Shola_Library/sitharishowdown
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/sitharishowdown
+        
+    }
+}
+
+textures/Shola_Library/sithcouncilv2
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/sithcouncilv2
+        
+    }
+}
+
+textures/Shola_Library/sithsanc
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/sithsanc
+        
+    }
+}
+
+textures/Shola_Library/Slayus
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Slayus
+        
+    }
+}
+
+textures/Shola_Library/SorzusSyn
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/SorzusSyn
+        
+    }
+}
+
+textures/Shola_Library/Starlight
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Starlight
+        
+    }
+}
+
+textures/Shola_Library/UnitedForces
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/UnitedForces
+        
+    }
+}
+
+textures/Shola_Library/vondurr
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/vondurr
+        
+    }
+}
+
+textures/Shola_Library/Wookiee
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Wookiee
+        
+    }
+}
+
+textures/sholawallart/Apocleaked
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/Apocleaked
+        
+    }
+}
+
+textures/sholawallart/BruceLeequote
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/BruceLeequote
+        
+    }
+}
+
+textures/sholawallart/darksidepowers
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/darksidepowers
+        
+    }
+}
+
+textures/sholawallart/darthtitle
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/darthtitle
+        
+    }
+}
+
+textures/sholawallart/decatsprefer
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/decatsprefer
+        
+    }
+}
+
+textures/sholawallart/demooffear
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/demooffear
+        
+    }
+}
+
+textures/sholawallart/DEwebsite
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/DEwebsite
+        
+    }
+}
+
+textures/sholawallart/droidoom
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/droidoom
+        
+    }
+}
+
+textures/sholawallart/fusradah
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/fusradah
+        
+    }
+}
+
+textures/sholawallart/gridcharacters
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/gridcharacters
+        
+    }
+}
+
+textures/sholawallart/holocroninfo
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/holocroninfo
+        
+    }
+}
+
+textures/sholawallart/jointheempire
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/jointheempire
+        
+    }
+}
+
+textures/sholawallart/leviathan
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/leviathan
+        
+    }
+}
+
+textures/sholawallart/lightsabercombatsith
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/lightsabercombatsith
+        
+    }
+}
+
+textures/sholawallart/marksofcontact
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/marksofcontact
+        
+    }
+}
+
+textures/sholawallart/marrondarkside
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/marrondarkside
+        
+    }
+}
+
+textures/sholawallart/sithmural
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/sithmural
+        
+    }
+}
+
+textures/sholawallart/starforgeempire
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/starforgeempire
+        
+    }
+}
+
+textures/sholawallart/tuleoftwoscript
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/tuleoftwoscript
+        
+    }
+}
+
+textures/sholawallart/wehavecookiees
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/wehavecookiees
+        
+    }
+}
+
+textures/sholawallart/Catast
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/Catast
+        
+    }
+}
+
+textures/sholawallart/maladorandannihid
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/maladorandannihid
+        
+    }
 }
