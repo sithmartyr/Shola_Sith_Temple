@@ -806,6 +806,18 @@ textures/sholawallart/ApocEmpireSymbol
     }
 }
 
+textures/Shola_Temple/pure_white
+{
+    q3map_nolightmap
+    surfaceparm    nodamage
+    {
+        map textures/Shola_Temple/pure_white
+        rgbGen lightingDiffuse
+        blendFunc GL_ONE GL_ONE
+        glow
+    }
+}
+
 
 
 
@@ -2150,6 +2162,33 @@ textures/sholawallart/maladorandannihid
     q3map_nolightmap
     {
         map textures/sholawallart/maladorandannihid
+        
+    }
+}
+
+textures/sholawallart/darthapocdrawing
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/darthapocdrawing
+        
+    }
+}
+
+textures/sholawallart/dontblockwithyourface
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/dontblockwithyourface
+        
+    }
+}
+
+textures/sholawallart/pcmasterrace
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/pcmasterrace
         
     }
 }
