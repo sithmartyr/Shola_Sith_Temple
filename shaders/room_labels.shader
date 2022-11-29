@@ -285,3 +285,21 @@ textures/Room_Labels/trainingroom
         rgbGen identity
     }
 }
+
+textures/Room_Labels/darkcouncil
+{
+	surfaceparm	nonsolid
+	polygonOffset
+    {
+        map textures/Room_Labels/darkcouncil
+        alphaFunc GE128
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+        rgbGen identity
+    }
+}

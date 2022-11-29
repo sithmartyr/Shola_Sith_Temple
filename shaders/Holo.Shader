@@ -93,6 +93,25 @@ textures/de_holos/pandorum
     }
 }
 
+textures/de_holos/arken
+{
+	qer_editorimage	textures/de_holos/arken
+	surfaceparm	nomarks
+	surfaceparm	nonsolid
+	surfaceparm	trans
+	nopicmip
+	nomipmaps
+	q3map_nolightmap
+	cull	twosided
+	deformvertexes	autoSprite2	
+    {
+        map textures/de_holos/arken_glow
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
+    }
+}
+
 textures/de_holos/sacrilege
 {
 	qer_editorimage	textures/de_holos/sacrilege

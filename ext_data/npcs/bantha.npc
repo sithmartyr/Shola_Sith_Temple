@@ -7,5 +7,5 @@ Bantha
 	playerTeam	TEAM_NEUTRAL
 	enemyTeam	TEAM_NEUTRAL
 	class		CLASS_VEHICLE
-	snd			tauntaun
+	snd			bantha
 }

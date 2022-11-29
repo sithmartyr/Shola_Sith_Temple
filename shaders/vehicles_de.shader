@@ -78,6 +78,30 @@ models/players/tie_de/tie_fighter_wing
     }
 }
 
+//ATSTDE
+
+
+models/players/atst_de/atst_material
+{
+    {
+        map models/players/atst_de/atst_material
+	blendFunc GL_ONE GL_ZERO
+	detail
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/atst_de/atst_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        detail
+        alphaGen lightingSpecular
+    }
+    {
+        map models/players/atst_de/atst_glow
+        blendFunc GL_ONE GL_ONE
+        glow
+    }
+}
+
 
 
 //EBONHAWKPREFAB

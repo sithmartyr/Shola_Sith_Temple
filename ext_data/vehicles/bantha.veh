@@ -44,11 +44,11 @@ cameraFOV			80
 cameraAlpha			0
 
 
-soundOn			"sound/chars/tauntaun/misc/buck1.mp3"
-soundOff		"sound/chars/tauntaun/misc/buck2.mp3"
-soundTurbo		"sound/chars/tauntaun/misc/anger1.mp3"
-soundShift1		"sound/chars/tauntaun/misc/anger3.mp3"
-soundShift2		"sound/chars/tauntaun/misc/chatter1.mp3"
-soundShift3		"sound/chars/tauntaun/misc/chatter3.mp3"
-soundShift4		"sound/chars/tauntaun/misc/pant1.mp3"
+soundOn			"sound/chars/bantha/misc/buck1.mp3"
+soundOff		"sound/chars/bantha/misc/buck2.mp3"
+soundTurbo		"sound/chars/bantha/misc/anger1.mp3"
+soundShift1		"sound/chars/bantha/misc/anger3.mp3"
+soundShift2		"sound/chars/bantha/misc/chatter1.mp3"
+soundShift3		"sound/chars/bantha/misc/chatter3.mp3"
+soundShift4		"sound/chars/bantha/misc/pant1.mp3"
 }

@@ -17,7 +17,7 @@ He also fixed every bug I came across!
 Added in October 2022, - A-Mountain by Acrobat
 Z-Mountain by Acrobat (Nov. 2022)
 Sprint is a retextured version of Dash1 from RaceArena by Loda
-DE walkers by Circa! Taken from the ATAT Vehicle walker by jhc
+DE Vehicles by Circa! ATAT_DE reskinned from the ATAT Vehicle walker by jhc
 Vehicle Bantha by jhc
 Ebon Hawk Prefab by DarthStevenus
 shola lava skybox and wasteland skybox taken from Sith J Cull maps.
