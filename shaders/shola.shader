@@ -813,8 +813,28 @@ textures/Shola_Temple/pure_white
     {
         map textures/Shola_Temple/pure_white
         rgbGen lightingDiffuse
+    }
+    {
+        map textures/Shola_Temple/pure_white
         blendFunc GL_ONE GL_ONE
         glow
+    }
+}
+
+textures/Shola_Temple/reflectivemetal
+{   
+    q3map_nolightmap
+    cull disable
+    {
+        map textures/Shola_Temple/reflectivemetal       
+        tcGen environment
+        rgbGen identity
+	}   
+        {
+		map textures/Shola_Temple/reflectivemetal
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+		glow
     }
 }
 

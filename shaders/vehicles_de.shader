@@ -85,9 +85,6 @@ models/players/atst_de/atst_material
 {
     {
         map models/players/atst_de/atst_material
-	blendFunc GL_ONE GL_ZERO
-	detail
-        rgbGen lightingDiffuse
     }
     {
         map models/players/atst_de/atst_spec
