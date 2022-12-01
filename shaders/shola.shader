@@ -2212,3 +2212,66 @@ textures/sholawallart/pcmasterrace
         
     }
 }
+
+textures/sholawallart/snailtime
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/snailtime
+        
+    }
+}
+
+textures/sholawallart/regulartime
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/regulartime
+        
+    }
+}
+
+textures/sholawallart/smallsize
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/smallsize
+        
+    }
+}
+
+textures/sholawallart/mediumsize
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/mediumsize
+        
+    }
+}
+
+textures/sholawallart/largesize
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/largesize
+        
+    }
+}
+
+textures/sholawallart/extrasmall
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/extrasmall
+        
+    }
+}
+
+textures/sholawallart/extralargesize
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/extralargesize
+        
+    }
+}
