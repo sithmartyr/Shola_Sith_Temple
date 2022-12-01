@@ -2275,3 +2275,21 @@ textures/sholawallart/extralargesize
         
     }
 }
+
+textures/sholawallart/alarmicon
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/alarmicon
+        
+    }
+}
+
+textures/sholawallart/swordsicon
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/swordsicon
+        
+    }
+}
