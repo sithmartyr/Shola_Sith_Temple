@@ -1,4 +1,4 @@
-models/map_objects/shola_temple/statue_silv
+models/map_objects/Shola_Temple/statue_silv
 {   
     cull disable
     {
@@ -317,7 +317,7 @@ textures/Shola_Temple/sholablack
     }
 }
 
-textures/Shola_temple/trisoup_rock
+textures/Shola_Temple/trisoup_rock
 {
    q3map_nonplanar
     q3map_shadeangle 120
@@ -838,7 +838,57 @@ textures/Shola_Temple/reflectivemetal
     }
 }
 
+textures/Shola_Temple/lava_pools
+{
+	qer_editorimage	textures/Shola_Temple/lava_pools
+	surfaceparm	nomarks
+	surfaceparm	nonsolid
+	surfaceparm	nonopaque
+	surfaceparm	lava
+	surfaceparm	trans
+	deformvertexes	wave	100 sin 1 2 2 0.6
+    {
+        map $lightmap
+    }
+    {
+        map textures/Shola_Temple/lava_pools
+        glow
+        rgbGen wave sin 0.8 0.1 0 0.3
+        alphaGen const 0
+    }
+    {
+        map textures/Shola_Temple/lava_pools_glw
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen wave sin 0.75 0.05 0 5
+    }
+}
 
+textures/Shola_Temple/lava_pass_1
+{
+	qer_editorimage	textures/Shola_Temple/lava_pass_1
+	surfaceparm	nomarks
+	surfaceparm	nonsolid
+	surfaceparm	lava
+	q3map_nolightmap
+	q3map_onlyvertexlighting
+	q3map_novertexshadows
+    
+    {
+        map textures/Shola_Temple/lava_pass_1
+	glow
+        rgbGen wave sin 0.8 0.1 0 0.3
+        alphaGen const 0      
+	tcMod scroll 0 -0.25
+    }
+    {
+        map textures/Shola_Temple/lava_pass_2
+        blendFunc GL_DST_COLOR GL_SRC_ALPHA
+        tcMod scroll 0.05 0.05
+        tcMod turb 1 0.3 1 0.1
+	
+    }
+}
 
 
 //KOTORMODELS
@@ -1358,11 +1408,11 @@ textures/Room_Labels/kotorcages
     }
 }
 
-textures/Room_Labels/longjumpsign
+textures/Room_Labels/longjumpssign
 {
     q3map_nolightmap
     {
-        map textures/Room_Labels/longjumpsign
+        map textures/Room_Labels/longjumpssign
         
     }
 }
@@ -1376,11 +1426,11 @@ textures/Room_Labels/movementv2sign
     }
 }
 
-textures/Room_Labels/personalquarterssign
+textures/Room_Labels/armorysign
 {
     q3map_nolightmap
     {
-        map textures/Room_Labels/personalquarterssign
+        map textures/Room_Labels/armorysign
         
     }
 }
@@ -1502,56 +1552,56 @@ textures/Shola_Temple/jc_wallgrabcourse
     }
 }
 
-textures/Shola_Temple/n00bmer1
+textures/Shola_Temple/noobmer1
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber1
+        map textures/Shola_Temple/noobmer1
         
     }
 }
 
-textures/Shola_Temple/n00mber2
+textures/Shola_Temple/noobmer2
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber2
+        map textures/Shola_Temple/noobmer2
         
     }
 }
 
-textures/Shola_Temple/n00mber3
+textures/Shola_Temple/noobmer3
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber3
+        map textures/Shola_Temple/noobmer3
         
     }
 }
 
-textures/Shola_Temple/n00mber4
+textures/Shola_Temple/noobmer4
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber4
+        map textures/Shola_Temple/noobmer4
         
     }
 }
 
-textures/Shola_Temple/n00mber5
+textures/Shola_Temple/noobmer5
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber5
+        map textures/Shola_Temple/noobmer5
         
     }
 }
 
-textures/Shola_Temple/n00mber6
+textures/Shola_Temple/noobmer6
 {
     q3map_nolightmap
     {
-        map textures/Shola_Temple/n00mber6
+        map textures/Shola_Temple/noobmer6
         
     }
 }
@@ -1678,6 +1728,15 @@ textures/Shola_Library/darkempireexiles
     q3map_nolightmap
     {
         map textures/Shola_Library/darkempireexiles
+        
+    }
+}
+
+textures/Shola_Library/Shola_planet
+{
+    q3map_nolightmap
+    {
+        map textures/Shola_Library/Shola_planet
         
     }
 }
@@ -2290,6 +2349,24 @@ textures/sholawallart/swordsicon
     q3map_nolightmap
     {
         map textures/sholawallart/swordsicon
+        
+    }
+}
+
+textures/sholawallart/armoryicon
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/armoryicon
+        
+    }
+}
+
+textures/sholawallart/AAgunicon
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/AAgunicon
         
     }
 }

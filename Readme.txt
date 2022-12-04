@@ -22,6 +22,8 @@ Vehicle Bantha by jhc
 Ebon Hawk Prefab by DarthStevenus
 shola lava skybox and wasteland skybox taken from Sith J Cull maps.
 TIE patrol script taken from Malevolence map
+Lamba Platform by Monsoontide
+Movement by Faded
 
 --Extra--
 
