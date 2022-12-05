@@ -19,6 +19,7 @@ models/map_objects/Shola_Temple/statue_silv
 }
 
 
+
 //SKIES
 
 
@@ -31,7 +32,7 @@ textures/skies/sholasky
 	notc
 	q3map_nolightmap
 	q3map_skylight 150 3
-	q3map_sunExt 1.0 1.0 1.0 100 50 35 1 2
+	q3map_sunExt 0.743435 0.180087 0 100 130 35 1 2
 	skyParms	textures/skies/moost 512 -
 }
 
@@ -81,7 +82,7 @@ textures/skies/wastelands
 
 textures/skies/watercourse
 {
-        qer_editorimage textures/skies/watercourse
+        qer_editorimage textures/skies/sky
         surfaceparm sky
         surfaceparm noimpact
         surfaceparm nomarks
