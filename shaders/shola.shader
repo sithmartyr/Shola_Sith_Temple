@@ -1499,6 +1499,16 @@ textures/Room_Labels/zmountainsign
     }
 }
 
+textures/Room_Labels/cantinadoorssign
+{
+    q3map_nolightmap
+    {
+        map textures/Room_Labels/cantinadoorssign
+        
+    }
+}
+
+
 textures/Shola_Temple/jc_jumpcourse
 {
     q3map_nolightmap
