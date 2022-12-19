@@ -2247,6 +2247,15 @@ textures/sholawallart/Catast
     }
 }
 
+textures/sholawallart/Gonth
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/Gonth
+        
+    }
+}
+
 textures/sholawallart/maladorandannihid
 {
     q3map_nolightmap
