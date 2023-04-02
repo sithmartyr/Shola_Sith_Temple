@@ -214,6 +214,24 @@ textures/Room_Labels/sewers
     }
 }
 
+textures/Room_Labels/Sublevels
+{
+	surfaceparm	nonsolid
+	polygonOffset
+    {
+        map textures/Room_Labels/Sublevels
+        alphaFunc GE128
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+        rgbGen identity
+    }
+}
+
 textures/Room_Labels/strafepads
 {
 	surfaceparm	nonsolid

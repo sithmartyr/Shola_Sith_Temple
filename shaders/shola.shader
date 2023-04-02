@@ -2390,3 +2390,21 @@ textures/sholawallart/AAgunicon
         
     }
 }
+
+textures/sholawallart/academybunker
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/academybunker
+        
+    }
+}
+
+textures/sholawallart/Sholaonmap
+{
+    q3map_nolightmap
+    {
+        map textures/sholawallart/Sholaonmap
+        
+    }
+}
